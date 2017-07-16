@@ -1,0 +1,38 @@
+{
+  "name": "d3node-map-world",
+  "version": "0.0.1",
+  "description": "D3-Node - Choropleth of World map",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./example",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/d3-node/d3node-map-world.git"
+  },
+  "keywords": [
+    "d3",
+    "cli",
+    "map",
+    "world",
+    "node"
+  ],
+  "author": "Brad Oyler",
+  "license": "MIT",
+  "dependencies": {
+    "d3-geo-projection": "2.2.0",
+    "d3-node": "^1.0.3",
+    "d3node-output": "0.0.9",
+    "topojson": "2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "4.2.0",
+    "eslint-config-standard": "10.2.1",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-node": "5.1.0",
+    "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-standard": "3.0.1"
+  }
+}
