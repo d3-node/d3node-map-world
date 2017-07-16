@@ -11,7 +11,7 @@ $ npm install d3node-map-world
 
 ```js
 const d3nMap = require('d3node-map-world');
-const bar = d3nMap(data, {})
+const map = d3nMap(data, {})
 ```
 
 Check out the [example](./example) for usage.
