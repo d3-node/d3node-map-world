@@ -1,6 +1,6 @@
 {
   "name": "d3node-map-world",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "D3-Node - Choropleth of World map",
   "main": "index.js",
   "scripts": {
