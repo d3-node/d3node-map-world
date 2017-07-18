@@ -11,7 +11,7 @@ $ npm install d3node-map-world
 
 ```js
 const d3nMap = require('d3node-map-world');
-const map = d3nMap(data, {})
+const map = d3nMap(data, { projectionKey: 'Mercator' })
 ```
 
 Check out the [example](./example) for usage.
@@ -21,7 +21,7 @@ Check out the [example](./example) for usage.
 npm start
 ```
 
-### Output:
+#### Output (Natural Earth projection):
 ![map](./example/output.png)
 
 ## API
@@ -47,13 +47,33 @@ Delimited data file parsed by d3
 ##### styles
 
 
-## Contributing
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+## Other Projections
+#### Albers
+![map](./example/output-Albers.png)
+#### Boggs
+![map](./example/output-Boggs.png)
+#### Collignon
+![map](./example/output-Collignon.png)
+#### CylindricalEqualArea
+![map](./example/output-CylindricalEqualArea.png)
+#### Eckert4
+![map](./example/output-Eckert4.png)
+#### Hammer
+![map](./example/output-Hammer.png)
+#### Hill
+![map](./example/output-Hill.png)
+#### Homolosine
+![map](./example/output-Homolosine.png)
+#### Kavrayskiy7
+![map](./example/output-Kavrayskiy7.png)
+#### Lagrange
+![map](./example/output-Lagrange.png)
+#### Mercator
+![map](./example/output-Mercator.png)
+#### Miller
+![map](./example/output-Miller.png)
+#### Mollweide
+![map](./example/output-Mollweide.png)
 
 
 ### LICENSE
