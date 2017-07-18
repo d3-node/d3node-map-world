@@ -22,7 +22,7 @@ npm start
 ```
 
 #### Output (Natural Earth projection):
-![map](./example/output.png)
+![map](./example/output-NaturalEarth.png)
 
 ## API
 
@@ -34,17 +34,14 @@ npm start
 
 Delimited data file parsed by d3
 
-#### Options <Object> (optional properties)
+#### Options `<Object>`
 
-##### width = 960 
-
-##### height = 500
-
-##### colors
-
-##### colorRanges
-
-##### styles
+- projectionKey (default: NaturalEarth)
+- width (default: 960)
+- height (default: 500)
+- colors `Hex, RGB color code`
+- colorRanges
+- styles
 
 
 ## Other Projections
